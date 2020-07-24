@@ -59,6 +59,10 @@ span {
 }
 .nav-link {
 	color: var(--main-txt-color);
+	/* hw3 */
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 .nav-link,
 .con-link {
@@ -226,12 +230,39 @@ footer a {
 	line-height: 1.55;
 	letter-spacing: 0.03em;
 }
+
+/* -= Home Work 3 =- */
+/* -= blocks & flexes =- */
+
 .container {
 	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: salmon;
+	/*background-color: salmon;*/
 	outline: 2px solid tomato;
+}
+.main-nav ul a {
+	display: flex;
+}
+.main-nav li {
+	outline: 2px solid green;
+	margin-right: 50px;
+}
+.main-nav li:last-child {
+	margin-right: 0;
+}
+.main-contacts {
+	display: flex;
+}
+.main-contacts li {
+	margin-right: 30px;
+}
+.main-contacts li:last-child {
+	margin-right: 0;
+}
+
+.nav {
+	display: flex;
 }
