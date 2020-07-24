@@ -119,6 +119,10 @@ button {
 	letter-spacing: 0.06em;
 	background-color: var(--accent-color);
 	color: var(--over-txt-color);
+	width: 200px;
+	height: 50px;
+	border: transparent;
+	border-radius: 4px;
 }
 /* features with hidden h2 */
 .features-list {
@@ -126,6 +130,9 @@ button {
 }
 .hidden {
 	display: none;
+}
+.what-we-do {
+	margin-bottom: 94px;
 }
 .features {
 	background-color: var(--features-bg-color);
@@ -161,7 +168,6 @@ h3.overlay {
 	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 0px;
-	
 }
 .team h3 {
 	font-weight: 500;
@@ -172,6 +178,39 @@ h3.overlay {
 	line-height: 1.18;
 	text-align: center;
 	letter-spacing: 0.03em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+.team {
+	display: flex;
+	padding-bottom: 24px;
+}
+.team li {
+	margin-right: 30px;
+}
+.team li:last-child {
+	margin-right: 0px;
+}
+.team img {
+	padding-bottom: 30px;
+}
+.team .position {
+	padding-bottom: 16px;
+}
+.employer-social {
+	display: flex;
+	padding-left: 32px;
+}
+.employer-social li {
+	padding: 12px;
+	margin-right: 10px;
+}
+.employer-social li:last-child {
+	margin-right: 0;
+}
+.employer-social img {
+	padding: 0;
 }
 /* footer */
 .footer-logo {
@@ -315,4 +354,3 @@ ul {
 .inventions li:last-child {
 	margin-right: 0;
 }
-.
