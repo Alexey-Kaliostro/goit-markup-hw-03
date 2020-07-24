@@ -243,9 +243,17 @@ footer a {
 	/*background-color: salmon;*/
 	outline: 2px solid tomato;
 }
-.main-nav ul a {
+/*.main-nav,
+a,
+ul {
 	display: flex;
+}*/
+.main-nav,
+.page-nav {
+	display: flex;
+	align-items: center;
 }
+
 .main-nav li {
 	outline: 2px solid green;
 	margin-right: 50px;
@@ -255,6 +263,7 @@ footer a {
 }
 .main-contacts {
 	display: flex;
+	align-items: center;
 }
 .main-contacts li {
 	margin-right: 30px;
@@ -263,6 +272,6 @@ footer a {
 	margin-right: 0;
 }
 
-.nav {
+.head {
 	display: flex;
 }
