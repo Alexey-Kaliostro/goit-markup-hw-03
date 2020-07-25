@@ -258,7 +258,6 @@ footer a {
 	margin-top: 93px;
 }
 .filters .filters-list {
-	outline: 2px solid tomato;
 	display: flex;
 	justify-content: center;
 }
@@ -306,9 +305,24 @@ footer a {
 	padding-top: 6px;
 	width: auto;
 }
-.portfolio {
+.thumbnails {
 	margin-top: 90px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 94px;
 }
+.portfolio {
+	display: flex;
+
+	flex-wrap: wrap;
+}
+.portfolio li {
+	padding-right: 30px;
+}
+li:nth-child(3n + 0) {
+	padding-right: 0px;
+}
+
 .portfolio a {
 	color: var(--main-txt-color);
 	text-decoration: none;
