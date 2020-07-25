@@ -254,8 +254,21 @@ footer a {
 	letter-spacing: 0.03em;
 }
 /* -=P O R T F O L I O=- */
-
-.filters button {
+.filters {
+	margin-top: 93px;
+}
+.filters .filters-list {
+	outline: 2px solid tomato;
+	display: flex;
+	justify-content: center;
+}
+.filters-list li {
+	margin-right: 8px;
+}
+.filters-list li:last-child {
+	margin-right: 0px;
+}
+.filter-b {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
@@ -282,9 +295,19 @@ footer a {
 	letter-spacing: 0.03em;
 	color: var(--sec-txt-color);
 }
-.filters .selected {
+.selected {
 	background-color: var(--accent-color);
 	color: var(--over-txt-color);
+}
+.filter-b {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	width: auto;
+}
+.portfolio {
+	margin-top: 90px;
 }
 .portfolio a {
 	color: var(--main-txt-color);
