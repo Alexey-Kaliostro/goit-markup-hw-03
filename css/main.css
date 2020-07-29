@@ -444,14 +444,26 @@ footer {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+.footer-left {
+	flex-basis: 231px;
+}
+.footer-middle {
+	flex-basis: 206px;
+}
+.footer-right {
+	flex-basis: 570px;
+}
+
 .footer {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: baseline;
+	/*align-items: center;*/
 }
-address {
+
+/*address {
 	margin-top: 20px;
-}
+}*/
 
 .fake-picture {
 	width: 270px;
