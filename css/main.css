@@ -89,18 +89,25 @@ span {
 
 /* hero */
 .overlay-banner {
-	padding-bottom: 94px;
+	/*padding-bottom: 94px;*/
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-color: grey;
 }
 .overlay-container {
 	text-align: center;
-	padding-top: 200px;
-	background: grey;
+	/*padding-top: 200px;
+	padding-bottom: 200px;
+	background: grey;*/
 	outline: 2px solid tomato;
-	height: 600px;
+	/*height: 600px;*/
+	width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .overlay {
 	color: var(--over-txt-color);
-	background-color: grey;
+	/*background-color: grey;*/
 }
 h1 {
 	font-weight: 900;
@@ -127,13 +134,14 @@ button {
 }
 /* features with hidden h2 */
 .features-list {
+	padding-top: 94px;
 	padding-bottom: 94px;
 }
 .hidden {
 	display: none;
 }
 .what-we-do {
-	margin-bottom: 94px;
+	padding-bottom: 94px;
 }
 .features {
 	background-color: var(--features-bg-color);
@@ -150,6 +158,7 @@ button {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
+	margin-top: 0;
 }
 h2 {
 	font-weight: bold;
@@ -181,17 +190,26 @@ h3.overlay {
 	text-align: center;
 	letter-spacing: 0.03em;
 	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-bottom: 10px;
+
+	padding-bottom: px;
+}
+.team h3 {
+	margin-bottom: 10px;
 }
 .regular-customers .container h2 {
+	/*padding-top: 94px;*/
+}
+.regular-customers {
 	padding-top: 94px;
 }
 .our-team .container {
 	padding-top: 94px;
 }
+.customers-logo li {
+	border: 1px solid black;
+}
 .our-team {
-	margin-bottom: 94px;
+	/*margin-bottom: 94px;*/
 }
 .team {
 	display: flex;
@@ -204,11 +222,14 @@ h3.overlay {
 .team li:last-child {
 	margin-right: 0px;
 }
-.team img {
-	padding-bottom: 30px;
+.team .avatar {
+	margin-bottom: 30px;
 }
 .team .position {
-	padding-bottom: 16px;
+	margin-bottom: 16px;
+}
+.employer {
+	margin-bottom: 10px;
 }
 .employer-social {
 	margin-bottom: 24px;
@@ -429,7 +450,6 @@ ul {
 .customers-logo {
 	display: flex;
 
-	/*justify-content: space-evenly;*/
 	padding-bottom: 94px;
 	/*outline: 1px solid black;*/
 }
@@ -437,6 +457,7 @@ ul {
 	display: inline-table;
 	/*outline: 1px solid black;*/
 	width: 170px;
+	height: 90px;
 	margin-right: 30px;
 }
 
@@ -451,8 +472,22 @@ footer {
 .footer-left {
 	flex-basis: 231px;
 }
+.footer-left .footer-logo {
+	display: block;
+	margin-bottom: 20px;
+}
 .footer-middle {
 	flex-basis: 206px;
+}
+.footer-social {
+	display: flex;
+}
+.footer-social li {
+	width: 44px;
+	margin-right: 10px;
+}
+.footer-social li:last-child {
+	margin-right: 0px;
 }
 .footer-right {
 	flex-basis: 570px;
